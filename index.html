@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title >Pagina principala</title>
+<link rel="stylesheet" href="css/stil1.css">
+<script type="text/javascript" src="javas/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+</head>
+<body style="background-color:#6ee9ab">
+ 
+<nav style="text-align:center">
+<ul>
+<li><button id="button2"><a href="index.html">Acasa </a></button></li>
+<li><button id="button2"><a href="Pagina1.html">Canada </a></button> </li>
+<li><button id="button2"><a href="Pagina2.html">Grecia </a></button></li>
+</ul>
+</nav>
+
+
+<div class="divStyle">
+  <div id="sectiune">
+    <button type="button" id="btn" onclick="sectiune.style.backgroundColor = 'blue';">Schimba culoare descriere</button>
+    <div class="paragraf">
+      <p style="color:rgb(2, 16, 54)">Descriere:</p>
+        <p>
+          In acest proiect am ales doua tari in care am scris despre istoria, geografia,turismul si ceva 
+          specific tarii respective.
+        </p>
+        <p>Acest proiect a fost realizat de: CIOBANU ANDREI-CONSTANTIN.</p>
+    </div>
+    </div><br>
+
+
+    <a href="Pagina1.html" style="margin-right: 100px;">
+        <img src="images/canada.png" alt="Canada" width="28%"
+          height="25%" title="Canada" />
+      </a>
+        <a href="Pagina2.html" style="margin-left: 100px; ">
+        <img src="images/grecia.png" alt="Grecia" width="28%"
+          height="25%" title="Grecia" />
+      </a>
+  <br>
+
+
+  <br>
+  <br>
+  <br>
+  <h4>Verificare utilizator si parola local storage:</h4>
+  <form >
+    <label for="user">User:</label><br>
+    <input type="text" id="user"><br>
+    <label for="pass">Parola:</label><br>
+    <input type="password" id="pass"><br><br>
+    <input type="button" value="Verificare" onclick="verificaUser()">
+    <input type="button" value="Inscriere" onclick="inscrieUser()">
+  </form>
+
+  <br>
+
+  <nav style="text-align:center">
+    <h2>Ambasade:</h2><br>
+    <botton id="button2"><a href="https://ottawa.mae.ro/">Canada</a></botton>
+    <botton id="button2"><a href="https://atena.mae.ro/">Grecia</a></botton>
+  </nav>
+  <br>
+  <br>
+
+  <div id="footer1">
+  <p >Copyright FSA gr.1343 2022-2023</p>
+  </div>
+</div>
+<style>
+  .divStyle{
+    margin: 30px;
+}
+
+.divStyle2{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.paragraf{
+    margin: 20px;
+}
+
+</style>
+</body>
+</html>
+
+
+
+
+

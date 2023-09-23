@@ -1,0 +1,41 @@
+#antet{
+    background-color: #7085ee;
+}
+
+nav {
+    background-color: #2182dd;
+}
+
+nav li {
+    background-color: #6ba6dd;
+    display: inline;
+}
+
+button {
+    padding: 15px;
+    background-color: blue;
+  }
+
+#sectiune{
+    background-color: #798EF6;
+}
+
+.h2{
+    margin-left: 50px;
+    color:rgb(6, 37, 8)
+}
+
+#footer2{
+    text-align: center;
+    background-color: #0A2299;
+    color: white;
+}
+
+.divStyle{
+    margin: 50px;
+}
+
+.divStyle2{
+    margin-left: -20px;
+    margin-right: -20px;
+}
